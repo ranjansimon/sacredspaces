@@ -1,0 +1,26 @@
+RewriteEngine on
+
+RewriteRule ^(.*)\.htm$ $1.php [NC]
+
+RewriteRule ^aboutus.html /projects/index.php?pg=aboutus
+RewriteRule ^albums.html /projects/index.php?pg=albums
+RewriteRule ^gallery-([^/]+)\.html$  /projects/index.php?pg=gallery&albumid=$1
+RewriteRule ^cameras.html /projects/index.php?pg=cameras
+RewriteRule ^prints.html /projects/index.php?pg=prints
+RewriteRule ^lightbox.html /projects/index.php?pg=lightbox
+RewriteRule ^contactus.html /projects/index.php?pg=contact
+RewriteRule ^list.html /projects/index.php?pg=list
+RewriteRule ^success.html /projects/index.php?pg=lightbox&success=y
+RewriteRule ^gallery-([^/]+)\.html$  /projects/index.php?pg=gallery&albumid=$1
+
+RewriteRule ^search.html /projects/index.php?pg=search
+
+RewriteRule ^country-([^/]+)\.html$  /projects/index.php?pg=search&tag=W&val=$1
+RewriteRule ^city-([^/]+)\.html$  /projects/index.php?pg=search&tag=C&val=$1
+RewriteRule ^date-([^/]+)\.html$  /projects/index.php?pg=search&tag=D&val=$1
+RewriteRule ^year-([^/]+)\.html$  /projects/index.php?pg=search&tag=Y&val=$1
+RewriteRule ^religion-([^/]+)\.html$  /projects/index.php?pg=search&tag=R&val=$1
+RewriteRule ^camera-([^/]+)\.html$  /projects/index.php?pg=search&tag=P&val=$1
+RewriteRule ^lens-([^/]+)\.html$  /projects/index.php?pg=search&tag=L&val=$1
+RewriteRule ^film-([^/]+)\.html$  /projects/index.php?pg=search&tag=F&val=$1
+RewriteRule ^typeimage-([^/]+)\.html$  /projects/index.php?pg=search&tag=I&val=$1

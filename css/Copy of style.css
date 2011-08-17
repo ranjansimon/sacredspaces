@@ -1,0 +1,196 @@
+body{font-family:'Museo', Arial, Helvetica, sans-serif; font-size:11px; color:#9a9a9a; margin:0; padding:0; background:#53514f; font-weight:normal; font-style:normal;}
+
+
+html, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, img /* sub, sup, table, caption, tbody, tfoot, thead, tr, th, td */ { 
+	margin: 0; 
+	padding: 0; 
+	font-size: 100%; 
+	border: 0; 
+	vertical-align: baseline; 
+}
+
+:focus {
+	outline:none;
+}
+.clear {
+	clear:both;
+}		
+.Fltlt {
+	float:left;
+}
+.FltRt {
+float:right;
+}
+
+
+
+/* @font-face */
+@font-face {
+    src: url('../fonts/Museo300-Regular-webfont.eot');
+    src: url('../fonts/Museo300-Regular-webfont.eot?iefix') format('eot'),
+         url('../fonts/Museo300-Regular-webfont.woff') format('woff'),
+         url('../fonts/Museo300-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Museo300-Regular-webfont.svg#webfontBsA9EFUC') format('svg');
+
+    src: url('../fonts/Museo500-Regular-webfont.eot');
+    src: url('../fonts/Museo500-Regular-webfont.eot?iefix') format('eot'),
+         url('../fonts/Museo500-Regular-webfont.woff') format('woff'),
+         url('../fonts/Museo500-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Museo500-Regular-webfont.svg#webfontQF7qPaga') format('svg');
+
+    src: url('../fonts/Museo700-Regular-webfont.eot');
+    src: url('../fonts/Museo700-Regular-webfont.eot?iefix') format('eot'),
+         url('../fonts/Museo700-Regular-webfont.woff') format('woff'),
+         url('../fonts/Museo700-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Museo700-Regular-webfont.svg#webfontNpXBDqia') format('svg');		 
+		 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#page {
+	margin:0 auto;
+	padding:0;
+	width:988px;
+	background:url(../images/pagebg.gif) repeat-y;
+
+}
+
+#page {
+	margin:0 auto;
+	padding:0 144px;
+	width:700px;
+	background:url(../images/pagebg.gif) repeat-y;
+}
+
+.header_title {
+	height: 60px;
+	font-size: 22px;
+	padding:50px 0 0 0;
+	color: #cccccc;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:normal;
+}
+
+#menu {
+	height:26px;
+	padding:0 40px;
+	border-bottom:1px solid #353330;
+	border-top:1px solid #353330;
+	font-size:12px;
+	color:#888583;
+}
+
+#menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#menu ul li{
+	margin:0;	
+	padding:0 18px;
+	list-style:none;
+	float:left;
+	line-height:26px;
+}
+
+#menu ul li.last{
+	padding:0 18px 0 0;
+	background:url(../images/search.gif) no-repeat right 7px;
+}
+
+#menu ul li a{
+	color:#888583;
+	text-decoration:none;
+}
+
+
+#menu ul li a:hover{
+	color:#cccccc;
+}
+
+#menu ul li a.active{
+	color:#cccccc;
+}
+
+.slidehome{
+	margin:25px 0 20px 0;
+	width:698px;
+	height:464px;
+	position:relative;
+	border:1px solid #1b1a17;
+}
+.prev{
+	margin:226px 0 0 0;
+	width:30px;
+	height:22px;	
+	background:url(../images/prev.png) no-repeat;
+	position:absolute;
+	display:block;
+	cursor:pointer;
+	z-index:1;
+}
+
+.next{
+	margin:226px 0 0 669px;
+	width:30px;
+	height:22px;	
+	background:url(../images/next.png) no-repeat;
+	position:absolute;
+	display:block;
+	cursor:pointer;
+	z-index:1;
+}
+.loder{
+	height:8px;
+	width:59px;
+	background:url(../images/loder.png) no-repeat;
+	margin:0 auto;
+}
+.title{
+	margin:0 auto;
+	padding:15px 0 0 0;
+	width:398px;
+	height:24px;
+	font-size:14px;
+	text-align:center;
+}
+
+.address{
+	margin:0 auto;
+	width:398px;
+	height:18px;
+	font-size:11px;
+	text-align:center;
+	padding:0 0 25px 0;
+}
+
+.contetninner{
+	margin:25px 0 20px 0;
+	width:698px;
+	height:464px;
+	position:relative;
+	border:1px solid #1b1a17;
+}
+
+
+.copyright {
+	margin:0 auto;
+	padding:15px 144px 30px 144px;
+	background:url(../images/footer.png) no-repeat;
+	width:700px;
+	font-size:10px;
+	color:#999999;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
